@@ -13,8 +13,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_7
-        targetCompatibility JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
     lintOptions {
@@ -23,7 +23,7 @@ android {
 }
 
 dependencies {
-    compile "com.android.support:support-v4:22.0.0"
-    compile "com.android.support:recyclerview-v7:21.0.2"
-    compile project(':recyclerviewfastscroller')
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation project(':recyclerviewfastscroller')
 }

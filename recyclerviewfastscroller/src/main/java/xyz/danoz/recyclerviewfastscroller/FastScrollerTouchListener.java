@@ -2,7 +2,7 @@ package xyz.danoz.recyclerviewfastscroller;
 
 import xyz.danoz.recyclerviewfastscroller.sectionindicator.SectionIndicator;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
